@@ -4,7 +4,8 @@
   "description": "A node.js implementation of Bulls and Cows.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --recursive"
+    "test": "mocha --compilers js:babel-core/register --recursive",
+    "build-perms-list": "babel-node lib/guesser/permutationFileMaker.js lib/guesser/codes.js"
   },
   "repository": {
     "type": "git",
