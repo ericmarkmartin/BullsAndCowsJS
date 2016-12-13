@@ -2,8 +2,9 @@
   "name": "bullsandcowsjs",
   "version": "1.0.0",
   "description": "A node.js implementation of Bulls and Cows.",
-  "main": "index.js",
+  "main": "game.js",
   "scripts": {
+    "start": "babel-node lib/game.js",
     "test": "mocha --compilers js:babel-core/register --recursive",
     "build-perms-list": "babel-node lib/guesser/permutationFileMaker.js lib/guesser/codes.js"
   },
